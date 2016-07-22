@@ -1,0 +1,15 @@
+{
+    "mailConfig":{
+        "host": "SMTP SERVER",
+        "username": "USERNAME",
+        "password": "PASSWORD",        
+        "to": "email1@yourdomain.com,email2@yourdomain.com",
+        "port": 465,
+        "secure": true,
+        "requireTLS": true,
+        "authMethod": "LOGIN"
+    },
+    "github":{
+        "secret": "GitHub Webhook Secret"
+    }
+}
