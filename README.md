@@ -11,7 +11,7 @@ This is built using [Serverless](http://serverless.com/) which works ontop of AW
 # Getting Started #
 1. Install Serverless `npm install serverless -g`
 2. Clone the this repository
-3. Run `serverless init` inside the project directory
+3. Run `serverless project init` inside the project directory
 4. `cd` into the lambda function github-push-notification folder and run `npm install`
 5. Modify the github-push-notification/config.json file to match your requirements
 6. Deploy using `serverless dash deploy`
@@ -19,3 +19,4 @@ This is built using [Serverless](http://serverless.com/) which works ontop of AW
 
 If you modify the template and want to just update the function simply run:
 `serverless function deploy`
+
